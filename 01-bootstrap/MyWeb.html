@@ -1,0 +1,179 @@
+<!<!doctype html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Rizuki</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand mb-0 h1" id="nav">
+                <img src="\01-bootstrap\Pictures\logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                Rizuki
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#Profile">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Project">Project</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="bg-light" style="padding-bottom: 100px; padding-top: 100px" id="Profile">     
+        <h1 class="text-center fw-lighter">Rizuki Muhammad</h1>
+        <p class="text-center text-muted">Lupakan gundah dan sesal mu, mari mabar bersama ku</p>
+        <p class="text-center">
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Tentang saya
+            </a>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Free Diamond
+            </button>
+        </p>
+        <div class="container collapse" id="collapseExample">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <p class="text-center"><img src="\01-bootstrap\Pictures\me.jpg" class="card-img-top" alt=""></p>              
+                    <h5 class="card-title">Hai selamat datang di web saya.</h5>
+                    Nama saya Muhammad Rizki, lebih suka di panggil Rizuki karena tiap daftar akun baru, nama saya selalu kepake sama orang lain. 
+                    Sesuai namanya, jenis kelamin saya laki laki. 
+                    Lahir dan menetap di Malinau, Kalimantan Utara, pada tanggal 10 bulan juni tahun 2002. 
+                    Status saat ini Mahasiswa di Universitas Hasanuddin, jurusan Sistem Informasi.
+                    Hobby saya saat ini adalah bermain game. Jadi, bila ada teman teman yang juga suka bermain game,
+                    hayuk sama sama kita mabar.
+                </div>
+                <div class="card-footer">
+                    <p><b>Facebook:</b> Muhammad Rizuki</p>
+                    <p><b>Twitter:</b> Muhammad Rizuki</p>
+                    <p><b>Instagram:</b> @muhammadrizuki</p>
+                    <p><b>Whatsapp:</b> 08533223****</p>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">SELAMAT, ANDA TELAH TERKENA SCAM</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="\01-bootstrap\Pictures\scam.png" class="card-img-top" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="bg-secondary p-2" style="--bs-bg-opacity: .10;">
+        <section class="container" style="padding-bottom: 50px; padding-top: 50px" id="Project" >
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="\01-bootstrap\Pictures\pertanian.jpg" class="card-img-top" alt="\01-bootstrap\Pictures\404.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Agriculture Project</h5>
+                            <p class="card-text">This is a library of various agriculture-related projects. You can view others projects and also add your own projects in here.</p>
+                            <div class="btn-group btn-group-sm" role="group" aria-label="Basic outlined example">
+                                <button type="button" class="btn btn-outline-secondary">View</button>
+                                <button type="button" class="btn btn-outline-Secondary">Edit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="\01-bootstrap\Pictures\code.png" class="card-img-top" alt="\01-bootstrap\Pictures\404.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Coding and Caring</h5>
+                            <p class="card-text">This is a library of various Programing-related projects. You can view others projects and also add your own projects in here.</p>
+                            <div class="btn-group btn-group-sm" role="group" aria-label="Basic outlined example">
+                                <button type="button" class="btn btn-outline-secondary">View</button>
+                                <button type="button" class="btn btn-outline-Secondary">Edit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="\01-bootstrap\Pictures\robot.jpg" class="card-img-top" alt="\01-bootstrap\Pictures\404.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Robotic Project</h5>
+                            <p class="card-text">This is a library of various Robotic-related projects. You can view others projects and also add your own projects in here.</p>
+                            <div class="btn-group btn-group-sm" role="group" aria-label="Basic outlined example">
+                                <button type="button" class="btn btn-outline-secondary">View</button>
+                                <button type="button" class="btn btn-outline-Secondary">Edit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="\01-bootstrap\Pictures\kesehatan.jpeg" class="card-img-top" alt="\01-bootstrap\Pictures\404.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Medic Application Project</h5>
+                            <p class="card-text">This is a library of various medical-related projects. You can view others projects and also add your own projects in here.</p>
+                            <div class="btn-group btn-group-sm" role="group" aria-label="Basic outlined example">
+                                <button type="button" class="btn btn-outline-secondary">View</button>
+                                <button type="button" class="btn btn-outline-Secondary">Edit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="\01-bootstrap\Pictures\web.jpg" class="card-img-top" alt="\01-bootstrap\Pictures\404.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Programing</h5>
+                            <p class="card-text">This is a library of various web-related projects. You can view others projects and also add your own projects in here.</p>
+                            <div class="btn-group btn-group-sm" role="group" aria-label="Basic outlined example">
+                                <button type="button" class="btn btn-outline-secondary">View</button>
+                                <button type="button" class="btn btn-outline-Secondary">Edit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="\01-bootstrap\Pictures\otomotif.jpeg" class="card-img-top" alt="\01-bootstrap\Pictures\404.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Automotive Project</h5>
+                            <p class="card-text">This is a library of various automotive-related projects. You can view others projects and also add your own projects in here.</p>
+                            <div class="btn-group btn-group-sm" role="group" aria-label="Basic outlined example">
+                                <button type="button" class="btn btn-outline-secondary">View</button>
+                                <button type="button" class="btn btn-outline-Secondary">Edit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+        <div class="bg-light">
+            <section class="container" style="padding-bottom: 20px; padding-top: 50px" id="Contact">
+                <h1 class="fw-lighter" style="padding-bottom: 20px">Hubungi saya disini</h1>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message text</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="d-grid d-sm-flex d-md-flex justify-content-sm-end">
+                    <button class="btn btn-primary me-md-2" type="button">Send</button>
+                </div>
+            </section>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    </body>
+    <footer class="bg-dark" style="padding-bottom: 20px; padding-top: 20px">
+        <p class="container text-muted" style="text-align-last: end">Replika dari Bootstrap album example</p>
+        <p class="container text-primary" style="text-align-last: end"><a href="#nav" class="text-link">back to top</a></p>
+    </footer>
+</html>
